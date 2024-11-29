@@ -1,0 +1,86 @@
+body{
+    background-color:rgb(255, 230, 230);
+}
+
+.header{
+    width: 1280px;
+    position: fixed;
+}
+
+ul{
+    list-style: none;
+    background: rgb(220, 101, 58);
+    padding: 0px 0px;
+    margin: 0px 0px;
+    position: fixed;
+    width: 1280px;
+    height: 60px;
+    top: 120px;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+ul li a{
+    padding: 10px 0px;
+    text-align: center;
+}
+ul li a img{
+    width: 120px;
+    height: 50px;
+}
+
+ul a:hover{
+    background-color: crimson;
+}
+
+/* Kode CSS Dropdown */
+ul li ul.dropdown{
+    background-color: rgb(186, 85, 48);
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 5px;
+    top: 70px;
+}
+ul li:hover ul.dropdown{
+    display: block;
+
+}
+
+/* Kode CSS side bar */
+.column{
+    float: left;
+    padding: 0px 10px;
+
+}
+/* Left column */
+.column.side{
+    margin: 170px 0px;
+    width: 300px;
+    height: 600px;
+    background-color: rgb(251, 179, 161);
+}
+.column.side img{
+    margin: 10px 0px;
+}
+
+/* Kode CSS middle bar */
+.column.middle{
+    margin: 170px 0px;
+    width: 900px;
+    height: 500px;
+    background-color: rgb(243, 207, 198);
+}
+/* Kode CSS Footer */
+.footer{
+    width: 1280px;
+    position: fixed;
+    margin: 550px 0px;
+}
+
+
+
